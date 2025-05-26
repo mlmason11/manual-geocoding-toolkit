@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "manual-geocoding-toolkit"
+version = "0.1.0"
+description = "A Python toolkit for manually geocoding incomplete spatial data"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name="Max Mason", email="mlmason11@gmail.com" }
+]
+
+dependencies = [
+    "pandas",
+    "geopandas",
+    "shapely",
+    "openpyxl",
+    "pyproj",
+    "typer[all]"
+]
+
+[project.scripts]
+manual-geocoding = "manual_geocoding.cli:app"

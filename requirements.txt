@@ -1,0 +1,12 @@
+# Core dependencies
+pandas
+geopandas
+shapely
+openpyxl
+pyproj
+
+# CLI
+typer[all]
+
+# Testing
+pytest

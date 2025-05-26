@@ -1,0 +1,2 @@
+DEFAULT_SPACING = 0.001  # Roughly ~100m in degrees
+DEFAULT_CRS = "EPSG:4326"  # WGS84
